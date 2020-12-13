@@ -17,7 +17,7 @@ p{
     font-family: 'Work Sans', sans-serif;
 }
 main{
-    max-width: 60%;
+    max-width: 70%;
 }
 input:not(.first-and-lastname){
     display: flex;
@@ -32,7 +32,7 @@ span{
 }
 .dog-span{
     display: flex;
-    flex-wrap: nowrap;
+    
 }
 .dog{
     background-color: rgb(221, 218, 218);
@@ -40,4 +40,12 @@ span{
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
     border-right: 0;
+}
+.select{
+    display: flex;
+    flex-wrap: wrap;
+}
+.country{
+    display: flex;
+    flex-wrap: nowrap;
 }
