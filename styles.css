@@ -16,8 +16,15 @@ img{
 p{
     font-family: 'Work Sans', sans-serif;
 }
-main{
-    max-width: 70%;
+.big-conteiner{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.first-div{
+    width: 60%;
+}
+.second-div{
+    width: 40%;
 }
 input:not(.first-and-lastname){
     display: flex;
@@ -47,5 +54,12 @@ span{
 }
 .country{
     display: flex;
+    justify-content: space-between;
     flex-wrap: nowrap;
+}
+.tree{
+    color: white;
+    background-color: #6c757d;
+    font-weight: bold;
+    border: 1px solid #6c757d;
 }
