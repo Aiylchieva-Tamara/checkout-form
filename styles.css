@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap');
 body{
     background-color: #f8f9fa;
+}
+.div-conteiner{
+    margin: 30px;
+}
+header{
+    box-sizing: border-box;
+    text-align: center;
+}
+img{
+    width: 62;
+    height: 47px;
+}
+p{
+    font-family: 'Work Sans', sans-serif;
 }
